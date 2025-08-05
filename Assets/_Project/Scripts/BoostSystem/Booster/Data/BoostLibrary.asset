@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a325918bd321419d950f692ea00dcfe1, type: 3}
+  m_Name: BoostLibrary
+  m_EditorClassIdentifier: 
+  Presets:
+  - PresetName: BoostSpeed1
+    BoostType: 0
+    SpeedMultiplier: 5
+    DecelerationTime: 5
+    LaunchDistanceX: 0
+    LaunchDistanceZ: 0
+    LandingHeight: 0
+    LaunchAngle: 0
+    DetectionRadius: 0
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 10
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
+  - PresetName: BoostSpeed2
+    BoostType: 0
+    SpeedMultiplier: 10
+    DecelerationTime: 5
+    LaunchDistanceX: 0
+    LaunchDistanceZ: 0
+    LandingHeight: 0
+    LaunchAngle: 0
+    DetectionRadius: 0
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 10
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
+  - PresetName: BoostLaunch1
+    BoostType: 1
+    SpeedMultiplier: 10
+    DecelerationTime: 5
+    LaunchDistanceX: 0
+    LaunchDistanceZ: 45
+    LandingHeight: 0
+    LaunchAngle: 45
+    DetectionRadius: 5
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 10
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
+  - PresetName: BoostLaunch2
+    BoostType: 1
+    SpeedMultiplier: 10
+    DecelerationTime: 5
+    LaunchDistanceX: 37.02
+    LaunchDistanceZ: 4
+    LandingHeight: 0
+    LaunchAngle: 45
+    DetectionRadius: 5
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 10
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
+  - PresetName: BoostLaunch3
+    BoostType: 1
+    SpeedMultiplier: 10
+    DecelerationTime: 5
+    LaunchDistanceX: 58
+    LaunchDistanceZ: -64
+    LandingHeight: 10
+    LaunchAngle: 45
+    DetectionRadius: 5
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 10
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
+  - PresetName: BoostTrampoline
+    BoostType: 2
+    SpeedMultiplier: 10
+    DecelerationTime: 5
+    LaunchDistanceX: 58
+    LaunchDistanceZ: -64
+    LandingHeight: 10
+    LaunchAngle: 45
+    DetectionRadius: 5
+    CustomBounceDirection: {x: 0, y: 1, z: 0}
+    BounceForce: 50
+    MinImpactSpeed: 1
+    BounceCooldown: 0.05
+    KeepHorizontalVelocity: 1
+    UseSurfaceNormal: 1
